@@ -8,6 +8,10 @@
 
 Describe your discussion for continuous integration. What positive experience did you share? What was a negative experience that someone shared?
 
+<img src="resource_imgs/Discussion.png">
+
+I joined the us-east-1 channel at 2:00 pm on Tuesday(02/16/2021) and discussed about the above topics. 
+
 ### Conceptual Questions Lecture
 
 1. Why is a pipeline useful architecture for supporting continuous deployment?
