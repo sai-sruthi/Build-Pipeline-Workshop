@@ -10,7 +10,7 @@ Describe your discussion for continuous integration. What positive experience di
 
 <img src="resource_imgs/Discussion.png">
 
-I joined the us-east-1 channel at 2:00 pm on Tuesday(02/16/2021) and discussed about the above topics. 
+I joined the us-east-1 channel at 2:00 pm on Tuesday(03/02/2021) and discussed about the above topics. 
 
 ### Conceptual Questions Lecture
 
@@ -39,10 +39,25 @@ I joined the us-east-1 channel at 2:00 pm on Tuesday(02/16/2021) and discussed a
 12. What are other stages of the pipeline that are missing?
 
 
+
+
 ### Completion of Pipelines Workshop 
 
 1. What did you learn in the pipelines workshop?
 
+
+
 2. What problems did you encounter?
 
+The problem faced by me was when creating a new VM, the existing VM's host key remains unchanged in the system, hence causing the system not being able to remotely connect to new VM with the same IP adress. When manually removing the host key, the new key could be added and the VM could be connected
+
+
 3. Document the completion of the Pipelines workshop with a screen shot of passing opunit check.
+
+<img src="resource_imgs/check1.png">
+
+<img src="resource_imgs/check2.png">
+
+<img src="resource_imgs/check3.png">
+
+<img src="resource_imgs/check4.png">
