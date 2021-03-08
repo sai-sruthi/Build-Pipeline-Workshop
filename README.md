@@ -8,10 +8,10 @@
 
 Describe your discussion for continuous integration. What positive experience did you share? What was a negative experience that someone shared?
 
-<img src="resource_imgs/Discussion.png">
-
     I joined the us-east-1 channel at 2:00 pm on Tuesday(03/02/2021) and discussed about the above topics. 
     We discussed our experience with CI prior to this course. The positive experience being easily ablt to detect integration bugs, while negative experience being a lot of effort to build automation test suite etc. 
+    
+<img src="resource_imgs/Discussion.png">
 
 ### Conceptual Questions Lecture
 
