@@ -48,27 +48,28 @@ I joined the us-east-1 channel at 2:00 pm on Tuesday(03/02/2021) and discussed a
 
 9. What are some issues that might occur if required to pass tests in a pre-commit hook?
 
+    The pre-commit hook will cancel the commit if the npm test fails. Some issue is if we try to do some necessary changes it may not allow due to test, hence the test cases have to be changed, even for local environment. Please find below the error encountered in the workshop. 
 
+    <img src="resource_imgs/preCommit.png">
 
 10. What are some issues that could occur when running npm install (when testing), and then npm install again in deployment?
 
-
+    Some issue that might occur when running npm install in deployement, is any changes in the node modules will affect our code, some cases the production environment can be lack of compiling tools, restricted internet access, and also if you have to deploy the same project on multiple machines, can be a waste of cpu, memory and bandwidth.
 
 11. Why is pm2 needed? What problems does this solve? What problems other problems might exist in more complex applications that our pipeline does not address?
 
-
+    The pm2 is a process manager which helps us in monitoring processed launched, this helps us in determinig any uneccessary processes running or even to see if our process is runnning. Other problems that might exist in more complex applications that our pipeline does not address multiple people trying to push commits into production, and not having any staging environment. 
 
 12. What are other stages of the pipeline that are missing?
 
     The other stages of pipeline that are missing are Package, staging, post-deploy, etc.
 
 
-
 ### Completion of Pipelines Workshop 
 
 1. What did you learn in the pipelines workshop?
 
-
+    I learned how to create hooks, to help us analyse the commits and build tests, for continous integeration. How to use build managers to create build environments for deployment. 
 
 2. What problems did you encounter?
 
