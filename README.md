@@ -11,7 +11,6 @@ Describe your discussion for continuous integration. What positive experience di
 <img src="resource_imgs/Discussion.png">
 
     I joined the us-east-1 channel at 2:00 pm on Tuesday(03/02/2021) and discussed about the above topics. 
-
     We discussed our experience with CI prior to this course. The positive experience being easily ablt to detect integration bugs, while negative experience being a lot of effort to build automation test suite etc. 
 
 ### Conceptual Questions Lecture
@@ -34,24 +33,35 @@ Describe your discussion for continuous integration. What positive experience di
 
 5. In the lecture, what characteristics did the four build manager tools have in commmon, how did they differ?
 
-
+    Each of these build managers have the capability of building the system, but he language used is different like JSON, JavaScript, etc.
 
 6. Based on the reading, summarize desirable properties of the Build phase.
 
+    Some desirable properties of Build phase are Correctness (dependencies are fullt expressed), Velocity/Speed (builds are completed in reasonable amount of time), Incrementality (builds execute the minimal subset of necessary commands to update deliverables without missing any necessaary commands), etc.  
+
 7. How might we verify a pipeline works correctly?
+
+    A possible step towards checking is applying a form of taint analysis, that is track all outputs of a build and check who reads those outputs.
 
 8. Trace the flow of a commit from the local App repository to running code in production. Can you see how it maps to the pipeline diagram?
 
+    The commit in the local App, calls the pre-commit hook, thus npm install, and npm test occur, then git push prod, pushes the change into deployment environment, where post receieve hooks occurs, running npm install, npm stop, and finally npm deploy. It maps to the pipeline diagram with running tests, installing and deploying. 
+
 9. What are some issues that might occur if required to pass tests in a pre-commit hook?
+
+
 
 10. What are some issues that could occur when running npm install (when testing), and then npm install again in deployment?
 
-    
+
 
 11. Why is pm2 needed? What problems does this solve? What problems other problems might exist in more complex applications that our pipeline does not address?
 
+
+
 12. What are other stages of the pipeline that are missing?
 
+    The other stages of pipeline that are missing are Package, staging, post-deploy, etc.
 
 
 
