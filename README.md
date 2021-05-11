@@ -1,6 +1,6 @@
-# HW3-stallur2
+# Build Pipeline Workshop
 
-**Unity Id:** stallur2
+Solution for: https://github.com/CSC-DevOps/Course/blob/master/HW/HW3-P.md
 
 **Name:** Sruthi Talluri 
 
